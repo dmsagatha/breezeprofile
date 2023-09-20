@@ -1,6 +1,6 @@
 <div x-data="picturePreview()" class="flex items-center">
   <div class="bg-slate-200 rounded-md mr-2">
-    <img id="preview" src="" alt="" class="w-24 h-24 rounded-md object-cover" />
+    <img id="preview" src="https://avatars.githubusercontent.com/u/3718406?s=48&v=4" alt="" class="w-24 h-24 rounded-md object-cover" />
   </div>
   <div>
     <x-button @click="document.getElementById('picture').click()" class="relative">
